@@ -8,8 +8,8 @@ body, h1, p, ul, form, input, button {
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #222222, #00f2fe);
-    color: #ffffff;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -27,7 +27,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 
 nav ul li a {
@@ -38,12 +38,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #00c6ff;
+    color: #4facfe;
 }
 
 /* Main Section */
 main {
     flex: 1;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -53,13 +54,11 @@ section {
     border-radius: 10px;
     padding: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
 }
 
 h1 {
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 /* Form Styling */
@@ -76,7 +75,7 @@ label {
 
 input {
     padding: 0.5rem;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     font-size: 1rem;
 }
@@ -102,22 +101,4 @@ footer {
     padding: 1rem;
     background-color: #222;
     color: #fff;
-    bottom: 1px;
 }
-
-#yo {
-    position: absolute;
-    top: 400px;
-    font-size: x-large;
-    font-family: "Times New Roman";
-}
-#header{
-    top: 400px;
-    position: page;
-}
-
-p {
-    font-size: 1rem;
-    text-align: center;
-}
-
