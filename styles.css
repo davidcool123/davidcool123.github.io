@@ -3,7 +3,6 @@ body, h1, p, ul, form, input, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 /* Body Styling */
@@ -16,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
 }
 
 /* Header and Navigation */
@@ -49,8 +47,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform:translate(1px,-240px);
-
 }
 
 section {
@@ -105,9 +101,4 @@ footer {
     padding: 1rem;
     background-color: #222;
     color: #fff;
-}
-
-div {
-    text-align: center;
-    transform:translate(-500px,-460px);
 }
