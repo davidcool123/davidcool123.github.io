@@ -107,9 +107,12 @@ footer {
 
 #yo {
     position: absolute;
-    top: 400px;
+    top: 230px;
     font-size: x-large;
     font-family: "Times New Roman";
+    text-align: left;
+
+
 }
 #header{
     top: 400px;
@@ -121,3 +124,41 @@ p {
     text-align: center;
 }
 
+#tip {
+    top: 230px;
+    font-size: x-large;
+    font-family: "Times New Roman";
+    text-align: right;
+    position: relative;
+    top: -250px;
+
+}
+
+h3 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#img1 {
+    width: 450px;
+
+}
+
+#img2 {
+    width: 545px;
+}
+
+#img3 {
+    width: 505px;
+}
+
+#img4 {
+    width: 450px;
+    margin-top: 250px;
+}
+
+#img5 {
+    width: 450px;
+    position: absolute; right: 0px;
+}
